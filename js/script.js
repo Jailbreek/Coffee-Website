@@ -45,28 +45,28 @@ function handleSubmit(event) {
 const form = document.querySelector("form");
 form.addEventListener("submit", handleSubmit);
 
-const instagramLink = "https://www.instagram.com/";
-const twitterLink = "https://twitter.com/";
-const facebookLink = "https://www.facebook.com/";
+// const instagramLink = "https://www.instagram.com/";
+// const twitterLink = "https://twitter.com/";
+// const facebookLink = "https://www.facebook.com/";
 
-const instagramIcon = document.querySelector('i[data-feather="instagram"]');
-const twitterIcon = document.querySelector('i[data-feather="twitter"]');
-const facebookIcon = document.querySelector('i[data-feather="facebook"]');
+// const instagramIcon = document.querySelector('i[data-feather="instagram"]');
+// const twitterIcon = document.querySelector('i[data-feather="twitter"]');
+// const facebookIcon = document.querySelector('i[data-feather="facebook"]');
 
-if (instagramIcon !== null) {
-  instagramIcon.addEventListener("click", () => {
-    window.open(instagramLink, "_blank");
-  });
-}
+// if (instagramIcon !== null) {
+//   instagramIcon.addEventListener("click", () => {
+//     window.open(instagramLink, "_blank");
+//   });
+// }
 
-if (twitterIcon !== null) {
-  twitterIcon.addEventListener("click", () => {
-    window.open(twitterLink, "_blank");
-  });
-}
+// if (twitterIcon !== null) {
+//   twitterIcon.addEventListener("click", () => {
+//     window.open(twitterLink, "_blank");
+//   });
+// }
 
-if (facebookIcon !== null) {
-  facebookIcon.addEventListener("click", () => {
-    window.open(facebookLink, "_blank");
-  });
-}
+// if (facebookIcon !== null) {
+//   facebookIcon.addEventListener("click", () => {
+//     window.open(facebookLink, "_blank");
+//   });
+// }
