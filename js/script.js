@@ -6,7 +6,7 @@ document.querySelector("#hamburger-menu").onclick = () => {
   navbarNav.classList.toggle("active");
 };
 
-// Klik diluar navbar untuk menghilangkan nav
+// Click outside navbar for hide the nav
 const hamburger = document.querySelector("#hamburger-menu");
 document.addEventListener("click", function (e) {
   if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {

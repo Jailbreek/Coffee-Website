@@ -22,7 +22,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  /* min-height: 5000px; */
 }
 
 /* Navbar */
@@ -279,7 +278,6 @@ body {
 .contact .row form .btn {
   margin-top: 2rem;
   display: inline-block;
-  /* padding: 1rem 2rem; */
   font-size: 1.4rem;
   color: #fff;
   background-color: var(--primary);
